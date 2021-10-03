@@ -1,0 +1,12 @@
+{
+    "name": "Kim Taemin",
+    "job": "Undergraduate student",
+    "age": 21,
+    "hobby": [ "Youtube", "Netflix", "astronomical observation" ],
+    "course_table": [
+        {"name": "Creative IT Engineering 2", "id": "CITE202"},
+        {"name": "Objective Programming", "id": "CSED232"},
+        {"name": "Applied Linear Algebra", "id": "MATH203"},
+        {"name": "Understanding of Modern Art", "id": "ARTS311"}
+    ]    
+}
