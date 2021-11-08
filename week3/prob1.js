@@ -5,7 +5,7 @@ const server = http.createServer((req, res) => {
     if(req.url == '/'){
         res.end()
     }
-    else if(req.url == '/time'){
+    else if(req.url == '/timer'){
         var time = new Date();
     
         res.write(time.getFullYear()+'-'+time.getMonth()+'-'+time.getDate()+' '+time.getHours()+':'+time.getMinutes()+':'+time.getSeconds());
