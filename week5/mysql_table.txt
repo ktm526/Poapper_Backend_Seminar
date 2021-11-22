@@ -1,0 +1,9 @@
+nes (7 sloc)  151 Bytes
+   
+CREATE TABLE foods( 
+id INT(11) NOT NULL AUTO_INCREMENT,
+name VARCHAR(100) NOT NULL,        
+kcal INT(11) NOT NULL,
+isVegan BOOLEAN,
+PRIMARY KEY(id)
+);
